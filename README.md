@@ -15,4 +15,9 @@ Includes:
 ## Installation
 To view color palettes and basic styling, clone the repo and run `index.html`.
 
+To install via Bower:
+```bash
+$ bower install clean-scss-slate
+```
+
 
