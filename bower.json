@@ -1,0 +1,21 @@
+{
+  "name": "clean-scss-slate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/catc/clean-scss-slate",
+  "authors": [
+    "Catalin Covic <catalin.covic@gmail.com>"
+  ],
+  "description": "Clean SCSS base for new projects.",
+  "main": "style.scss",
+  "keywords": [
+    "scss",
+    "clean"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!public/stylesheets//scss/style.scss",
+    "!public/stylesheets//scss/_base.scss",
+    "!public/stylesheets//scss/base/*"
+  ]
+}
