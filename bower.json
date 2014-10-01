@@ -14,8 +14,8 @@
   "license": "MIT",
   "ignore": [
     "*",
-    "!public/stylesheets//scss/style.scss",
-    "!public/stylesheets//scss/_base.scss",
-    "!public/stylesheets//scss/base/*"
+    "!public/stylesheets/scss/style.scss",
+    "!public/stylesheets/scss/_base.scss",
+    "!public/stylesheets/scss/base/*"
   ]
 }
