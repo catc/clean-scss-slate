@@ -127,6 +127,7 @@ $bbig: 979px;
 $blarge: 1200px;
 $bhuge: 1600px;
 
+$btablet: 1025px;
 
 /* = Mixins
 -------------------------------------------------------------- */
@@ -152,6 +153,9 @@ $bhuge: 1600px;
 	@else if $mediaq == computer1 {		// 768 - 979
 		@media only screen and ( min-width: $bmed + 1 ) and ( max-width : $bbig) { @content; }
 	} 		
+	@else if $mediaq == nontablet {		// 1025+ (bigger than ipads)
+		@media only screen and (min-width : $btablet + 1 ) { @content; }
+	}
 	@else if $mediaq == computer2 {		// 980 - 1199
 		@media only screen and (min-width : $bbig + 1) and ( max-width : $blarge - 1) { @content; }
 	}
