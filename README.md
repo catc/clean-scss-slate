@@ -11,6 +11,30 @@ Includes:
 * various scss mixins (transitions, animations, keyframes)
 * media queries and breakpoints
 * global settings + browser fixes
+
+
+### Layout
+```
+├── public
+|   ├── stylesheets
+|   |   ├── style.css
+|   |   └── scss
+|   |       ├── style.scss
+|   |       |
+|   |       ├── _base.scss
+|   |       ├── _main.scss
+|   |       |
+|   |       ├── base
+|   |       |   ├── _normalize.scss
+|   |       |   ├── _variables.scss
+|   |       |   ├── _global.scss
+|   |       |   ├── _extra.scss
+|   |       |   └── _grid.scss
+|   |       |
+|   |       └── main.scss
+|   |           └── _file.scss
+```
+
  
 ## Installation
 To view color palettes and basic styling, clone the repo and run `index.html`.
