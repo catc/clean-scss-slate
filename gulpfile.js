@@ -2,7 +2,7 @@
 var debug = require('debug')('clean');
 var app   = require('./app');
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4001);
 
 
 var gulp = require('gulp'),
