@@ -1,6 +1,6 @@
 {
   "name": "clean-scss-slate",
-  "version": "1.0.0",
+  "version": "1.1",
   "homepage": "https://github.com/catc/clean-scss-slate",
   "authors": [
     "Catalin Covic <catalin.covic@gmail.com>"
@@ -14,11 +14,7 @@
   "license": "MIT",
   "ignore": [
     "*",
-    "!public/stylesheets/scss/style.scss",
-    "!public/stylesheets/scss/_base.scss",
-    "!public/stylesheets/scss/_main.scss",
-    "!public/stylesheets/scss/base/*",
-    "!public/stylesheets/scss/main/*",
+    "!public/stylesheets/**/*",
 
     "!views/html-header.txt"
   ]
