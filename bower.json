@@ -16,6 +16,10 @@
     "*",
     "!public/stylesheets/scss/style.scss",
     "!public/stylesheets/scss/_base.scss",
-    "!public/stylesheets/scss/base/*"
+    "!public/stylesheets/scss/_main.scss",
+    "!public/stylesheets/scss/base/*",
+    "!public/stylesheets/scss/main/*",
+
+    "!views/html-header.txt"
   ]
 }
