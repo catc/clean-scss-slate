@@ -9,3 +9,7 @@ views/*
 
 public/*
 !public/stylesheets/
+
+
+public/stylesheets/preview.css
+public/stylesheets/scss/preview.scss
