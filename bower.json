@@ -15,7 +15,6 @@
   "ignore": [
     "*",
     "!public/stylesheets/**/*",
-
     "!views/html-header.txt"
   ]
 }
