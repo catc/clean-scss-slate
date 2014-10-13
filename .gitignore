@@ -2,7 +2,7 @@ node_modules/
 routes/
 npm-debug.log
 
-views/
+views/*
 !views/index.jade
 
 public/*
