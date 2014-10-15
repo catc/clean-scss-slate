@@ -226,3 +226,17 @@ $btablet: 1024px;
 	-moz-box-sizing    : $box-model; // Firefox <= 19
 	box-sizing         : $box-model;
 }
+
+@mixin prefix($name, $argument) {
+	-webkit-#{$name}: #{$argument};
+	-moz-#{$name}: #{$argument};
+	#{$name}: #{$argument};
+}
+
+@mixin prefix2($name, $argument) {
+	-webkit-#{$name}: #{$argument};
+	-ms-#{$name}: #{$argument};
+	-moz-#{$name}: #{$argument};
+	-o-#{$name}: #{$argument};
+	#{$name}: #{$argument};
+}
