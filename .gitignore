@@ -1,16 +1,5 @@
 node_modules/
-routes/
 npm-debug.log
 
-app.js
-
-views/*
-!views/index.jade
-!views/html-header.txt
-
 public/*
-!public/stylesheets/
-
-
-public/stylesheets/preview.css
-public/stylesheets/scss/preview.scss
+!public/css/

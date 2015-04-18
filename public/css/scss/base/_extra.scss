@@ -1,7 +1,6 @@
-/* = Extra
------------------------------------------------ */
+// ------- Extra -------
 
-/* links */
+// links
 a {
 	color: $c-blue;
 	&:link, &:hover, &:focus, &:visited {
@@ -10,7 +9,7 @@ a {
 	}
 }
 
-/* remove outlines from firefox */
+// remove outlines from firefox
 button::-moz-focus-inner {
 	// border: 0;       
 }
@@ -19,7 +18,7 @@ button::-moz-focus-inner {
 }
 
 
-/* clearfixes  */
+// clearfixes
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -28,24 +27,19 @@ button::-moz-focus-inner {
 	line-height: 0;
 	height: 0;
 }
- 
 html[xmlns] .clearfix {
 	display: block;
 }
- 
 * html .clearfix {
 	height: 1%;
 }
 
-
-/* mobile */
+// mobile
 * {
 	// -webkit-tap-highlight-color: transparent;
 }
 
-
-
-/* other */
+// other
 *,
 *:after,
 *::before {
@@ -53,12 +47,14 @@ html[xmlns] .clearfix {
 	box-sizing: border-box;
 }
 
-/* button reset */
+// button
 button {
 	// border: none;
 	// background:none;
 	// box-shadow: none;
 	// text-shadow: none;
+	// -webkit-appearance: none;
+	// -moz-appearance: none;
 	&:hover, &:focus, &:active {
 		// border: none;
 		// background:none;
@@ -66,11 +62,13 @@ button {
 	}
 }
 
-/* input reset */
+// input
 input {
 	// box-shadow: none;
 	// border: none;
 	// background: transparent;
+	// -webkit-appearance: none;
+	// -moz-appearance:    none;
 	&:focus { 
 		// outline: none;
 	}

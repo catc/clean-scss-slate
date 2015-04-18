@@ -1,5 +1,4 @@
-/* = Global
------------------------------------------------ */
+// ------- Global -------
 
 html {
     font-size: 62.5%; 					
@@ -39,6 +38,12 @@ h4 { font-size: 2.4rem; }
 h5 { font-size: 1.8rem; }
 h6 { font-size: 1.4rem; }
 
+hr {
+	border: none;
+	height: 1px;
+	background: $b6;
+	color: $b6;
+}
 
 // lists
 ul, ol {
@@ -56,7 +61,6 @@ li > ol {
 	margin-bottom: 0;
 	margin-left: 0.4em;
 }
-
 
 // code
 pre {

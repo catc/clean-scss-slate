@@ -2,16 +2,12 @@ doctype html
 html
 	head
 		title= title
-		link(rel='stylesheet', href='stylesheets/style.css')
-		link(rel='stylesheet', href='stylesheets/preview.css')
-
-		//- link(rel='stylesheet', href='public/stylesheets/style.css')
-		//- link(rel='stylesheet', href='public/stylesheets/preview.css')
+		link(rel='stylesheet', href='css/style.css')
+		link(rel='stylesheet', href='css/preview.css')
 
 		link(href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css')
 
 	body
-		
 		#container
 			h1 Clean SCSS slate
 
@@ -37,7 +33,6 @@ html
 						- }					
 					- })
 
-				//- - var windows = [{ 'n':'$w-yellow', 'code' :'#ffb300','bgn' : '$w-grey', 'code2' : '#252525'}, { 'n':'$w-green', 'code' :'#79bc00', 'bgn' : '$w-grey', 'code2' : '#252525'}, { 'n':'$w-blue', 'code' :'#2673ec', 'bgn' : '$w-grey', 'code2' : '#252525'}, { 'n':'$w-red', 'code' :'#ae113d', 'bgn' : '$w-grey', 'code2' : '#252525' }]
 				- var windows = [{"n" : "$w-yellow", "code" : "#F2B21B", "n2" : "$w-grey", "code2" : "#242424"},{"n" : "$w-green", "code" : "#76BA43","n2" : "$w-grey", "code2" : "#242424"},{"n" : "$w-blue", "code" : "#436FB6","n2" : "$w-grey", "code2" : "#242424"},{"n" : "$w-red:", "code" : "#AE1D3F" ,"n2" : "$w-grey", "code2" : "#242424"},{"n" : "$w-brown", "code" : "#613111","n2" : "$w-brown2", "code2" : "#2C1A0D"},{"n" : "$w-red2", "code" : "#B62524","n2" : "$w-red3", "code2" : "#491111"},{"n" : "$w-fuschia", "code" : "#C11E52","n2" : "$w-fuschia2", "code2" : "#4C0737"},{"n" : "$w-purple", "code" : "#6D3393","n2" : "$w-purple2", "code2" : "#2C124D"},{"n" : "$w-purple3", "code" : "#4D3D98","n2" : "$w-purple4", "code2" : "#252063"},{"n" : "$w-blue2", "code" : "#206AB4","n2" : "$w-blue3", "code2" : "#15214C"},{"n" : "$w-turquoise", "code" : "#008287","n2" : "$w-turquoise2", "code2" : "#034D60"},{"n" : "$w-emerald", "code" : "#1B9947","n2" : "$w-emerald2", "code2" : "#1F4A23"},{"n" : "$w-green2", "code" : "#34B44A","n2" : "$w-green3", "code2" : "#199947"},{"n" : "$w-orange", "code" : "#F89723","n2" : "$w-orange2", "code2" : "#E36C25"},{"n" : "$w-red4", "code" : "#EE3823","n2" : "$w-red5", "code2" : "#B72025"},{"n" : "$w-pink", "code" : "#ED2977","n2" : "$w-pink2", "code2" : "#B71F6C"},{"n" : "$w-purple5", "code" : "#8459A4","n2" : "$w-purple6", "code2" : "#663F98"},{"n" : "$w-aqua", "code" : "#4CA7DD","n2" : "$w-aqua2", "code2" : "#2B5BA9"},{"n" : "$w-aqua3", "code" : "#66C0ED","n2" : "$w-aqua4", "code2" : "#5C9AD3"},{"n" : "$w-seaspray", "code" : "#4AC1BE","n2" : "$w-seaspray2", "code2" : "#00A9A9"},{"n" : "$w-lgreen", "code" : "#92C83D","n2" : "$w-lgreen2", "code2" : "#83BA40"},{"n" : "$w-yellow2", "code" : "#E1B923","n2" : "$w-yellow3", "code2" : "#D19D2A"},{"n" : "$w-pink3", "code" : "#F178AE","n2" : "$w-pink4", "code2" : "#D467A7"},{"n" : "$w-turquoise3", "code" : "#00A4A4","n2" : "$w-grey2", "code2" : "#696969"},{"n" : "$w-orange3", "code" : "#F47B28","n2" : "$w-grey2", "code2" : "#696969"} ]
 				.windows
 					h2 Window 8 color scheme (<a href="http://www.creepyed.com/wp-content/uploads/win8ColorsPersonalize.png" target="_blank">starting screen theme</a>)
@@ -52,7 +47,6 @@ html
 
 
 				- var flat = [ {'n' : '$f-turqouise', 'code': '#1abc9c', 'n2' : '$f-green-sea', 'code2': '#16a085'},{'n' : '$f-emerald', 'code': '#2ecc71','n2' : '$f-nephritis', 'code2': '#27ae60'},{'n' : '$f-peter-river', 'code': '#3498db','n2' : '$f-belize-hole', 'code2': '#2980b9'},{'n' : '$f-ametyhs', 'code': '#9b59b6','n2' : '$f-wisteria', 'code2': '#8e44ad'},{'n' : '$f-wet-asphalt', 'code': '#34495e','n2' : '$f-midnight-blue', 'code2': '#2c3e50'},{'n' : '$f-sun-flower', 'code': '#f1c40f','n2' : '$f-orange', 'code2': '#f39c12'},{'n' : '$-carrot', 'code': '#e67e22','n2' : '$f-pumpkin', 'code2': '#d35400'},{'n' : '$f-alizarin', 'code': '#e74c3c','n2' : '$f-pomegranate', 'code2': '#c0392b'},{'n' : '$f-clouds', 'code': '#ecf0f1','n2' : '$f-silver', 'code2': '#bdc3c7'},{'n' : '$f-concrete', 'code': '#95a5a6','n2' : '$f-asbestos', 'code2': '#7f8c8d'} ]
-				//- [{'n': '$f-turqouise', 'code': '#1abc9c', 'n2': '$f-green-sea', 'code2': '#16a085'}, {'n': '$f-emerald', 'code': '#2ecc71', 'n2': '$f-nephritis', 'code2': '#27ae60'}, {'n': '$f-peter-river', 'code': '#3498db', 'n2': '$f-belize-hole', 'code2': '#2980b9'} ]
 				.flat
 					h2 Flat UI colors (<a href="http://flatuicolors.com/" target="_blank">www.flatuicolors.com</a>)
 					- flat.forEach(function(i){
@@ -140,7 +134,6 @@ html
 				h4 This is h4
 				h5 This is h5
 				h6 This is h6
-
 
 
 
