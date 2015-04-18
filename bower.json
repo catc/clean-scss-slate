@@ -14,8 +14,6 @@
   "license": "MIT",
   "ignore": [
     "*",
-    "!public/css/**/*",
-    "public/css/preview.css",
-    "!html-header.txt"
+    "!dist/**/*"
   ]
 }

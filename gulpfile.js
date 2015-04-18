@@ -42,3 +42,12 @@ gulp.task('scss', function(){
 });
 
 gulp.task('dev', ['express', 'watch']);
+
+
+
+// -------------- dist --------------
+
+gulp.task('dist', function(){
+	gulp.src([ 'public/css/**/*.scss', '!public/css/preview.css', 'html-header.txt' ])
+		.pipe( gulp.dest('dist/') );
+});
